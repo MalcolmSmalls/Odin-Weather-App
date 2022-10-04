@@ -10,6 +10,9 @@ searchBtn.addEventListener('click', async () => {
         kelvin = searchData.main.temp
         let kelvinToFahrenheit = Math.floor((kelvin - 273.15) * (9/5) + 32)
         let conditions = searchData.weather[0].main
+        let city = searchData.name
+        document.querySelector('h2').textContent = `${kelvinToFahrenheit}°F`
+        document.querySelector('h3').textContent = `${city}`
         console.log(conditions)
         console.log(searchData)
         console.log(kelvinToFahrenheit)
