@@ -35,6 +35,12 @@ body {
   flex-direction:column;
 }
 
+p {
+  margin-top:0;
+  margin-bottom:40px;
+  font-size:.8rem;
+}
+
 h1 {
   margin: 0 auto;
   font-size:2rem;
@@ -49,7 +55,14 @@ h2{
 h3{
   font-size:.8rem;
   margin-top:0;
-  margin-bottom:40px;
+  margin-bottom:0px;
+}
+
+.center{
+  background-color:white;
+  width:50vh;
+  height:300px;
+  padding:30px;
 }
 /******************************************
 /* ADDITIONAL STYLES
